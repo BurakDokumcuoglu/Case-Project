@@ -1,0 +1,41 @@
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3vh;
+  
+    .pagination--pageNumbers{
+    display: flex;
+    flex-direction: row;
+    
+    
+
+    .pagination--pageNumbers--pageNumber{
+        width: 2.7vw;
+        height: 5.2vh;
+        border: 1px solid lightgray;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0.5vw;
+        margin-right: 0.5vw;
+        cursor: pointer;
+        color: gray;
+    }
+    
+    }
+    .pagination--back,.pagination--forward{
+        width: 2.7vw;
+        height: 5.2vh;
+        border: 1px solid lightgray;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        cursor: pointer;
+        color: gray;
+    }
+}

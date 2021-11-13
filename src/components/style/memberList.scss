@@ -1,0 +1,44 @@
+.memberList{
+    margin-top: 3vh;
+    h2{
+        margin-right: 50vw;
+        font-size: 3vh;
+    }
+    .memberList--newMemberButton{
+        width: 13vw;
+        height: 5vh;
+        background-color: white;
+        color: gray;
+        border-radius: 0.7vh;
+        font-size: 1.8vh;
+        border:1px solid gray;
+        position: relative;
+        bottom: 4.4vh;
+        left: 10vw;
+    }
+    .memberlist--members{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: space-between;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .memberList{
+        .memberList--newMemberButton{
+           width: 25vw;
+        }
+    }
+    
+  }
+
+  @media only screen and (max-width: 672px) {
+    .memberList{
+        .memberList--newMemberButton{
+           width: 35vw;
+        }
+    }
+    
+  }
+
